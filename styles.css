@@ -644,7 +644,7 @@
   }
 
   .main__destinations__container h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
 
@@ -840,11 +840,11 @@
   }
 
   .locations__destinations__card {
-    height: 400px;
-    width: 400px;
+    height: 375px;
+    width: 375px;
   }
 
-  .locations__destinations__card h2{
+  .locations__destinations__card h2 {
     font-size: 5rem;
     bottom: 50px;
   }
