@@ -648,11 +648,11 @@
   }
 }
 
-/* @media screen and (max-width: 580px) {
+@media screen and (max-width: 580px) {
   .main__destinations__container h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
-} */
+}
 
 /* Locations CSS */
 .locations__destinations {
@@ -832,7 +832,7 @@
 
 @media screen and (max-width: 580px) {
   .locations__destinations {
-    height: 4000px;
+    height: 3400px;
   }
 
   .locations__destinations h1 {
@@ -840,12 +840,16 @@
   }
 
   .locations__destinations__card {
-    height: 375px;
-    width: 375px;
+    height: 350px;
+    width: 350px;
   }
 
   .locations__destinations__card h2 {
-    font-size: 5rem;
+    font-size: 4rem;
     bottom: 50px;
+  }
+
+  .locations__destinations__card p {
+    top: 0px;
   }
 }
