@@ -5,6 +5,7 @@
   font-family: "Kumbh Sans", sans-serif;
 }
 
+
 .navbar {
   background: #131313;
   height: 80px;
@@ -41,10 +42,6 @@
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
-}
-
-.fa-gem {
-  margin-right: 0.5rem;
 }
 
 .navbar__menu {
@@ -325,7 +322,7 @@
     font-size: 3rem;
   }
 
-  .main__conent p {
+  .main__content p {
     margin-top: 1rem;
     font-size: 1.5rem;
   }
@@ -341,7 +338,7 @@
     font-size: 2rem;
   }
 
-  .main__conent p {
+  .main__content p {
     margin-top: 2rem;
     font-size: 1.5rem;
   }
@@ -609,7 +606,7 @@
 /* Main */
 
 .main__destinations {
-  background-color: #141414;
+  background: #141414;
 }
 
 .main__destinations__container {
@@ -617,15 +614,15 @@
   align-items: center;
   justify-self: center;
   flex-direction: column;
-  height: 20vh;
-  background-color: #141414;
+  height: 25vh;
+  background: #141414;
   z-index: 1;
   width: 100%;
 }
 
 .main__destinations__container h2 {
   font-size: 6rem;
-  background-color: #141414;
+  background: #141414;
   background-image: linear-gradient(to top, #d600ff 0%, #00ff9f 100%);
   background-size: 100%;
   margin-top: 4rem;
@@ -663,7 +660,7 @@
   height: 185vh;
 }
 
-.locations__destinations h1 {
+/* .locations__destinations h1 {
   background-color: #ff8177;
   background-image: linear-gradient(
     to right,
@@ -681,9 +678,10 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-}
+} */
 
 .locations__destinations__container {
+  background: #141414;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -808,9 +806,9 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1612px) {
+@media screen and (max-width: 1600px) {
   .locations__destinations {
-    height: 2750px;
+    height: 320vh;
   }
 
   .locations__destinations h1 {
@@ -819,9 +817,9 @@
   }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1064px) {
   .locations__destinations {
-    height: 4750px;
+    height: 570vh;
   }
 
   .locations__destinations h1 {
@@ -832,7 +830,7 @@
 
 @media screen and (max-width: 580px) {
   .locations__destinations {
-    height: 3400px;
+    height: 400vh;
   }
 
   .locations__destinations h1 {
@@ -851,5 +849,80 @@
 
   .locations__destinations__card p {
     top: 0px;
+  }
+}
+
+/* About Us */
+.about-us {
+  background: #141414;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us__container {
+  background: #141414;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.about-us__text-image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.about-us__image-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.about-us__text {
+  color: #fff;
+  width: 50%;
+  padding: 0 2rem;
+}
+
+.about-us__text p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: justify;
+}
+
+.about-us__image {
+  width: 50%;
+}
+
+.about-us__image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  .about-us__container {
+    width: 90%;
+  }
+
+  .about-us__text-image,
+  .about-us__image-text {
+    flex-direction: column;
+  }
+
+  .about-us__text {
+    width: 100%;
+    padding: 0;
+    margin: 2rem 0;
+  }
+
+  .about-us__image {
+    width: 75%;
   }
 }
