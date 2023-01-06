@@ -399,6 +399,7 @@
   color: #fff;
   transform: scale(1);
   transition: 0.2s ease-in;
+  user-select: none;
 }
 
 .locations__card:nth-child(2) {
@@ -414,12 +415,14 @@
   position: absolute;
   top: 350px;
   left: 30px;
+  /* user-select: none; */
 }
 
 .locations__card p {
   position: absolute;
   top: 400px;
   left: 30px;
+  /* user-select: none; */
 }
 
 .locations__card button {
@@ -687,6 +690,7 @@
   color: #fff;
   transform: scale(1);
   transition: 0.2s ease-in;
+  user-select: none;
 }
 
 .locations__destinations__card:nth-child(2) {
