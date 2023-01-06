@@ -5,7 +5,6 @@
   font-family: "Kumbh Sans", sans-serif;
 }
 
-
 .navbar {
   background: #131313;
   height: 80px;
@@ -830,7 +829,7 @@
 
 @media screen and (max-width: 580px) {
   .locations__destinations {
-    height: 400vh;
+    height: 450vh;
   }
 
   .locations__destinations h1 {
@@ -923,6 +922,6 @@
   }
 
   .about-us__image {
-    width: 75%;
+    width: 100%;
   }
 }
