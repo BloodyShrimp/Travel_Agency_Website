@@ -49,81 +49,31 @@
     <!-- Main -->
     <div class="main__destinations">
       <div class="main__destinations__container">
-        <h2>ABOUT US</h2>
+        <h2>Get in touch</h2>
       </div>
     </div>
 
-    <!-- About Us -->
-    <div class="about-us">
-      <div class="about-us__container">
-        <div class="about-us__text-image">
-          <div class="about-us__text">
-            <h1>Who are we</h1>
-            <p>
-              Welcome to J-Tours, a premier travel agency specializing in
-              organizing tours to the Land of the Rising Sun. Our team of travel
-              experts is passionate about sharing the beauty, culture, and
-              history of Japan with our clients. We have been in the travel
-              industry for over a decade and have established strong
-              relationships with local tour operators, hotels, and restaurants
-              to ensure that our tours offer the best possible value and
-              experience.
-            </p>
-          </div>
-          <div class="about-us__image">
-            <img src="images/about-us-image.svg" alt="About Us" />
-          </div>
-        </div>
-        <div class="about-us__image-text">
-          <div class="about-us__image">
-            <img src="images/about-us-image-2.svg" alt="About Us" />
-          </div>
-          <div class="about-us__text">
-            <h1>Our Services</h1>
-            <p>
-              At J-Tours, we offer a range of tour packages to suit every budget
-              and interest. Our tours range from week-long city packages to
-              month-long exploration of Japan's four main islands. We can also
-              customize tours to fit your specific needs and preferences. In
-              addition to our tour packages, we also offer a range of travel
-              services such as flight bookings, visa assistance, and travel
-              insurance.
-            </p>
-          </div>
-        </div>
-        <div class="about-us__text-image">
-          <div class="about-us__text">
-            <h1>Our Team</h1>
-            <p>
-              Our team is made up of experienced travel professionals who are
-              knowledgeable about Japan and are dedicated to providing the
-              highest level of service to our clients. Our tour guides are all
-              fluent in English and have a deep understanding of Japanese
-              culture and history. They will go above and beyond to ensure that
-              your trip to Japan is a once-in-a-lifetime experience.
-            </p>
-          </div>
-          <div class="about-us__image">
-            <img src="images/about-us-image-3.svg" alt="About Us" />
-          </div>
-        </div>
-        <div class="about-us__image-text">
-          <div class="about-us__image">
-            <img src="images/about-us-image-4.svg" alt="About Us" />
-          </div>
-          <div class="about-us__text">
-            <h1>Our Commitment to Sustainability</h1>
-            <p>
-              At J-Tours, we are committed to operating in a sustainable and
-              responsible manner. We believe that it is our responsibility to
-              preserve the natural and cultural heritage of Japan for future
-              generations. We strive to minimize our environmental impact and
-              support local communities through our tours. We also partner with
-              responsible tourism organizations and follow their guidelines to
-              ensure that our tours are sustainable and ethically-minded.
-            </p>
-          </div>
-        </div>
+    <!-- Contact Us -->
+    <div class="contact-us__container">
+      <div class="contact-us__container__content">
+        <p1>
+          We'd love to hear from you. Send us a message and we'll get back to
+          you as soon as possible.
+        </p1>
+        <form action="/send-message" method="post" class="submitted">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" required />
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required />
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" required></textarea>
+          <input type="submit" value="Send message">
+        </form>
+        <p2>You can also reach us at:</p2>
+        <ul>
+          <li>Email: contact@j-tours.com</li>
+          <li>Phone: +1 555 555 5555</li>
+        </ul>
       </div>
     </div>
 
