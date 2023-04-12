@@ -1,9 +1,7 @@
-# Techniki_WWW_static
+# Travel agency site
 
-Projekt na zajęcia Techniki WWW w roku 2022/23
+Travel agency site built with HTML and CSS
 
-Szymon Werk
-
-# Link do strony
+# Link to the website
 
 https://bloodyshrimp.github.io/Techniki_WWW_static/
